@@ -1,0 +1,23 @@
+version: 2
+sources:
+  - name: ecommerce_source
+    schema: main
+    tables:
+      - name: customers
+        description: "The customers table containing customer data"
+      - name: orders
+        description: "The orders table containing customer orders"
+      - name: geolocation
+        description: "Contains geolocation data for customers"
+      - name: order_items
+        description: "Details of individual items in an order"
+      - name: payments
+        description: "Information about payments made for orders"
+      - name: order_reviews
+        description: "Reviews given by customers for their orders"
+      - name: products
+        description: "Product details in the e-commerce store"
+      - name: sellers
+        description: "Information about the sellers of the products"
+      - name: product_category_name_translation
+        description: "Translations for product category names"

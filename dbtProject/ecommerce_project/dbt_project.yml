@@ -1,0 +1,30 @@
+name: "ecommerce_project"
+version: "1.0"
+profile: "ecommerce_project"  # Make sure this matches the profile in profiles.yml
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:  # Directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+models:
+  ecommerce_project:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
+
+seeds:
+  ecommerce_project:
+    Region_Mapping:
+      delimiter: ","
+      quote: '"'
+      escape: '"'
+      header: true

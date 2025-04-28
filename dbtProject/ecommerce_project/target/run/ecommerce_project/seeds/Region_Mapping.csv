@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "ecommerce_project"."main"."Region_Mapping";
+    -- dbt seed --
+    
+          COPY "ecommerce_project"."main"."Region_Mapping" FROM '/mnt/e/Nauka/DE_Bootcamp/Projects/DBT_project1_ecommerce/dbtProject/ecommerce_project/seeds/Region_Mapping.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  
