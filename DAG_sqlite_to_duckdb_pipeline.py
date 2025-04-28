@@ -18,7 +18,7 @@ SQLITE_SNAPSHOT_DIR_PATH = '/mnt/e/Nauka/DE_Bootcamp/Projects/DBT_project1_ecomm
 CSV_FOLDER = "/mnt/e/Nauka/DE_Bootcamp/Projects/DBT_project1_ecommerce/archive"
 DUCKDB_PATH = "/mnt/e/Nauka/DE_Bootcamp/Projects/DBT_project1_ecommerce/ecommerce_project.duckdb"
 DBT_PROJECT_PATH = "/mnt/e/Nauka/DE_Bootcamp/Projects/DBT_project1_ecommerce/dbtProject/ecommerce_project"
-DBT_PROFILES_DIR = "/mnt/c/Users/cvieb/.dbt"
+DBT_PROFILES_DIR = "/mnt/c/Users/[USER_NAME]/.dbt"
 
 # Tasks
 
